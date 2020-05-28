@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d28e1844-bfb3-463f-8073-77e3bdb2f525" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts/addNewContactForm/AddNewContactForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts/addNewContactForm/AddNewContactForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts/contact/Contact.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contacts/contact/ContactEditModeForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/Login.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/LoginContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-forms/FormControls.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-forms/FormControls.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-forms/validators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/contacts-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+    <list default="true" id="d28e1844-bfb3-463f-8073-77e3bdb2f525" name="Default Changelist" comment="Code refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/contacts-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/contacts-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,18 +77,42 @@
       <option name="presentableId" value="Default" />
       <updated>1590587251539</updated>
       <workItem from="1590587252860" duration="18274000" />
-      <workItem from="1590655509398" duration="20820000" />
+      <workItem from="1590655509398" duration="21857000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1590679596181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590679596181</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1590679609611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590679609611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Code refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="608" y="566" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590656010530">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="608" y="566" key="#com.intellij.fileTypes.FileTypeChooser/0.46.1920.1034@0.46.1920.1034" timestamp="1590656010530" />
+    <state x="949" y="225" key="CommitChangelistDialog2" timestamp="1590680379600">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="949" y="225" key="CommitChangelistDialog2/0.46.1920.1034@0.46.1920.1034" timestamp="1590680379600" />
     <state width="1153" height="130" key="GridCell.Tab.0.bottom" timestamp="1590655537876">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
