@@ -1,23 +1,23 @@
 
 // constants
-const LOGIN = 'auth/LOGIN'
+const LOGIN = 'auth/LOGIN';
 
 // state
 const initialState = {
-    isAuth: true,
-}
+    isAuth: false,
+};
 
 // reducer
 const authReducer = (state = initialState, action) => {
     switch (action.type) {
         case LOGIN:
-            return {...state, ...action.payload, isAuth: true}
+            return {...state, ...action.payload, isAuth: true};
         default:
             return {...state}
     }
-}
+};
 
 // action creators
-export const login = (userData) => ({type: LOGIN, payload: userData})
+export const login = (userData) => ({type: LOGIN, payload: userData});
 
 export default authReducer
