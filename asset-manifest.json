@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Evilinos/tz/static/css/main.2995726c.chunk.css",
-    "main.js": "/Evilinos/tz/static/js/main.1836d05e.chunk.js",
-    "main.js.map": "/Evilinos/tz/static/js/main.1836d05e.chunk.js.map",
+    "main.js": "/Evilinos/tz/static/js/main.01c16223.chunk.js",
+    "main.js.map": "/Evilinos/tz/static/js/main.01c16223.chunk.js.map",
     "runtime-main.js": "/Evilinos/tz/static/js/runtime-main.1a8b0c76.js",
     "runtime-main.js.map": "/Evilinos/tz/static/js/runtime-main.1a8b0c76.js.map",
     "static/js/2.18437302.chunk.js": "/Evilinos/tz/static/js/2.18437302.chunk.js",
     "static/js/2.18437302.chunk.js.map": "/Evilinos/tz/static/js/2.18437302.chunk.js.map",
     "index.html": "/Evilinos/tz/index.html",
-    "precache-manifest.393794e53947f50ff9113e243d5a899b.js": "/Evilinos/tz/precache-manifest.393794e53947f50ff9113e243d5a899b.js",
+    "precache-manifest.efa9dfc252d0beeaf13f8426f657a81b.js": "/Evilinos/tz/precache-manifest.efa9dfc252d0beeaf13f8426f657a81b.js",
     "service-worker.js": "/Evilinos/tz/service-worker.js",
     "static/css/main.2995726c.chunk.css.map": "/Evilinos/tz/static/css/main.2995726c.chunk.css.map",
     "static/js/2.18437302.chunk.js.LICENSE.txt": "/Evilinos/tz/static/js/2.18437302.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1a8b0c76.js",
     "static/js/2.18437302.chunk.js",
     "static/css/main.2995726c.chunk.css",
-    "static/js/main.1836d05e.chunk.js"
+    "static/js/main.01c16223.chunk.js"
   ]
 }

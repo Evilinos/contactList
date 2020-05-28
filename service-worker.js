@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Evilinos/tz/precache-manifest.393794e53947f50ff9113e243d5a899b.js"
+  "/Evilinos/tz/precache-manifest.efa9dfc252d0beeaf13f8426f657a81b.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b60b9fa022a98405eff11a3cfd14603e",
+    "revision": "b06c3bdafdfee2476739429ca5884914",
     "url": "/Evilinos/tz/index.html"
   },
   {
-    "revision": "4781d721e6839248b138",
+    "revision": "14d642282166a686bd4d",
     "url": "/Evilinos/tz/static/css/main.2995726c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Evilinos/tz/static/js/2.18437302.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4781d721e6839248b138",
-    "url": "/Evilinos/tz/static/js/main.1836d05e.chunk.js"
+    "revision": "14d642282166a686bd4d",
+    "url": "/Evilinos/tz/static/js/main.01c16223.chunk.js"
   },
   {
     "revision": "013d5fb25e0c6326fb8e",
