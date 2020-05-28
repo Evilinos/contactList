@@ -1,0 +1,73 @@
+.contact {
+    width: 350px;
+    height: 205px;
+    border: 5px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+.addNewContactForm {
+    position: fixed;
+    top: 120px;
+    left: 450px;
+    z-index: 100;
+}
+
+.addNewContactForm .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 175px);
+    grid-gap: 2px;
+    background-color: #d9d9e0;
+}
+
+.addNewContactForm .contact input {
+    margin-bottom: 5px;
+    outline-color: cornflowerblue;
+    border-color: cornflowerblue;
+
+}
+
+.addNewContactForm .contact textarea {
+    width: 340px;
+    height: 75px;
+    resize: none;
+    outline-color: cornflowerblue;
+}
+
+.addNewContactForm .contact input, .addNewContactForm .contact textarea {
+    border: 1px solid cornflowerblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.addNewContactForm_buttonClose {
+    position: absolute;
+    left: 360px;
+    top: -10px;
+    background-color: #c30000;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.addNewContactForm_buttonSave {
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background-color: cornflowerblue;
+    transition: 0.3s all;
+    box-shadow: 3px 3px 8px gray;
+    border-radius: 5px;
+    color: white;
+}
+
+.addNewContactForm_buttonSave:hover {
+    box-shadow: 3px 3px 10px black;
+}

@@ -1,0 +1,33 @@
+.wrapper {
+    display: grid;
+    justify-items: center;
+    margin: 50px;
+}
+
+.header h2 {
+    display: inline-block;
+}
+
+.header button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background-color: cornflowerblue;
+    transition: 0.3s all;
+    box-shadow: 3px 3px 8px gray;
+    border-radius: 5px;
+    color: white;
+}
+
+.header button:hover {
+    box-shadow: 3px 3px 10px black;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+

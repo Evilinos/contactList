@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Suspense} from 'react';
 import './App.css';
+import Login from "./components/login/LoginContainer";
+import {Redirect, Route, Switch} from 'react-router-dom';
+import ContactsContainer from "./components/contacts/ContactsContainer";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Suspense fallback={<div>Загрузка</div>}>
+        <Switch>
+            <Route exact path='/login'
+            render={() =>  <Login/>}/>
+            <Route exact path='/contacts'
+                   render={() =>  <ContactsContainer/>}/>
+            <Redirect exact from="/" to="/login" />
+            <Route render={() => <div>404 NOT FOUND</div>}/>
+        </Switch>
+      </Suspense>
   );
 }
 
