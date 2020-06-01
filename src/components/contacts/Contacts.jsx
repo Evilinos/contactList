@@ -4,6 +4,7 @@ import AddNewContactForm from "./addNewContactForm/AddNewContactForm";
 
 const Contacts = (props) => {
 
+
     return <div className={styles.wrapper}>
         {props.addNewContactForm &&
         <AddNewContactForm onSubmit={props.onSubmitNewContact} setAddNewContactForm={props.setAddNewContactForm}/>}

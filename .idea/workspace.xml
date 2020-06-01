@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d28e1844-bfb3-463f-8073-77e3bdb2f525" name="Default Changelist" comment="Code refactoring 2">
+    <list default="true" id="d28e1844-bfb3-463f-8073-77e3bdb2f525" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/contacts-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/contacts-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/contact/ContactEditModeForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contact/ContactEditModeForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -75,6 +76,7 @@
       <updated>1590587251539</updated>
       <workItem from="1590587252860" duration="18274000" />
       <workItem from="1590655509398" duration="22011000" />
+      <workItem from="1591042319460" duration="3085000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1590679596181</created>
@@ -114,25 +116,33 @@
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="608" y="566" key="#com.intellij.fileTypes.FileTypeChooser/0.46.1920.1034@0.46.1920.1034" timestamp="1590656010530" />
+    <state x="464" y="457" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591044978178">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="464" y="457" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1591044978178" />
     <state x="949" y="225" key="CommitChangelistDialog2" timestamp="1590680768297">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="949" y="225" key="CommitChangelistDialog2/0.46.1920.1034@0.46.1920.1034" timestamp="1590680768297" />
-    <state width="1153" height="130" key="GridCell.Tab.0.bottom" timestamp="1590655537876">
+    <state width="1437" height="163" key="GridCell.Tab.0.bottom" timestamp="1591042365350">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1153" height="130" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1590655537876" />
-    <state width="1153" height="130" key="GridCell.Tab.0.center" timestamp="1590655537876">
+    <state width="1437" height="163" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1591042365350" />
+    <state width="1437" height="163" key="GridCell.Tab.0.center" timestamp="1591042365350">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1153" height="130" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1590655537876" />
-    <state width="1153" height="130" key="GridCell.Tab.0.left" timestamp="1590655537876">
+    <state width="1437" height="163" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1591042365350" />
+    <state width="1437" height="163" key="GridCell.Tab.0.left" timestamp="1591042365350">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1153" height="130" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1590655537876" />
-    <state width="1153" height="130" key="GridCell.Tab.0.right" timestamp="1590655537876">
+    <state width="1437" height="163" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1591042365350" />
+    <state width="1437" height="163" key="GridCell.Tab.0.right" timestamp="1591042365350">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1153" height="130" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1590655537876" />
+    <state width="1437" height="163" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1591042365350" />
+    <state x="553" y="440" key="RollbackChangesDialog" timestamp="1591040692085">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="553" y="440" key="RollbackChangesDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1591040692085" />
   </component>
 </project>
