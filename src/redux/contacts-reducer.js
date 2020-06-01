@@ -23,13 +23,9 @@ const initialState = {
     ]
 };
 
-
-let ids = 2;
-
 const contactsReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_NEW_CONTACT:
-            action.contact.id = ++ids;
             return {...state, contacts: [...state.contacts, action.contact]};
         case DELETE_CONTACT:
             return {...state, contacts: action.contacts};

@@ -15,8 +15,9 @@ const ContactsContainer = (props) => {
     };
 
     const onSubmitNewContact = (formData) => {
+        formData.id = Date.now().toString()
         props.addNewContact(formData);
-        props.setAddNewContactForm(false)
+        setAddNewContactForm(false)
     };
 
     let contacts = props.contacts.map((c) => {

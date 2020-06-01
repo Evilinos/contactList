@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d28e1844-bfb3-463f-8073-77e3bdb2f525" name="Default Changelist" comment="Code refactoring 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/contacts-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/contacts-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
