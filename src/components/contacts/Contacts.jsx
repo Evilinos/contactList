@@ -9,7 +9,7 @@ const Contacts = (props) => {
             return (
                 <Contact contacts={props.contacts}
                          editContact={props.editContact}
-                         delete={props.onClickDelete}
+                         deleteContactHandler={props.deleteContactHandler}
                          key={c.id} {...c}/>
             )
         }

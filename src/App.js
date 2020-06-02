@@ -1,15 +1,15 @@
 import React, {Suspense} from 'react';
 import './App.css';
-import Login from "./components/login/LoginContainer";
+import Login from "./components/login/Login";
 import {Redirect, Route, Switch} from 'react-router-dom';
 import ContactsContainer from "./components/contacts/ContactsContainer";
 
-const App = (props) => {
+const App = () => {
   return (
       <Suspense fallback={<div>Загрузка</div>}>
         <Switch>
             <Route exact path='/login'
-            render={() =>  <Login/>}/>
+            render={() =>  <Login />}/>
             <Route exact path='/contacts'
                    render={() =>  <ContactsContainer/>}/>
             <Redirect exact from="/" to="/login" />
@@ -17,6 +17,6 @@ const App = (props) => {
         </Switch>
       </Suspense>
   );
-}
+};
 
 export default App;

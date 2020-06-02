@@ -12,7 +12,7 @@ const Contact = (props) => {
         number: props.number,
         address: props.address,
         description: props.description,
-    })
+    });
 
     let [editMode, setEditMode] = useState(false);
 
@@ -27,11 +27,10 @@ const Contact = (props) => {
     };
 
     const onChangeInput = (e) => {
-        console.log(e.target.value)
         setFormData({...formData, ...{[e.target.name]: e.target.value}})
-    }
+    };
 
-    return editMode ? <ContactEditModeForm delete={props.delete} onSubmit={onSubmit} onChangeInput={onChangeInput} formData={formData}/>
+    return editMode ? <ContactEditModeForm deleteContactHandler={props.deleteContactHandler} onSubmit={onSubmit} onChangeInput={onChangeInput} formData={formData}/>
         : <div className={styles.contact}>
             <img src={avatar} alt="contact avatar"/>
             <span className={styles.contact_name}>{props.firstName + '  ' + props.secondName}</span>

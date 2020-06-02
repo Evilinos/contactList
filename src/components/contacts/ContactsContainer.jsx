@@ -8,21 +8,23 @@ const ContactsContainer = (props) => {
 
     const [addNewContactForm, setAddNewContactForm] = useState(false);
 
-    const onClickDelete = (id) => {
+
+    const deleteContactHandler = (id) => {
         const newContactsArray = props.contacts.filter((c) => c.id !== id);
         props.deleteContact(newContactsArray)
     };
 
     const onSubmitNewContact = (formData) => {
-        formData.id = Date.now().toString()
+        formData.id = Date.now().toString();
         props.addNewContact(formData);
         setAddNewContactForm(false)
     };
 
-    if (!props.isAuth) return <Redirect to='/login'/>
+    if (!props.isAuth) return <Redirect to='/login'/>;
 
     return <Contacts onSubmitNewContact={onSubmitNewContact}
-                     onClickDelete={onClickDelete}
+                     deleteContactHandler={deleteContactHandler}
+                     editContact={props.editContact}
                      contacts={props.contacts}
                      addNewContactForm={addNewContactForm}
                      setAddNewContactForm={setAddNewContactForm}/>

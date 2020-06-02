@@ -5,7 +5,6 @@ import {maxLength20, number, required} from "../../../redux-forms/validators";
 import {Input} from "../../../redux-forms/FormControls";
 
 const AddNewContactForm = (props) => {
-    console.log(props)
     return <form onSubmit={props.handleSubmit} className={styles.addNewContactForm}>
         <div className={styles.contact}>
             {props.error && <div>ОШИБКА</div>}
@@ -22,6 +21,6 @@ const AddNewContactForm = (props) => {
             <button className={styles.addNewContactForm_buttonSave}>Save</button>
         </div>
     </form>
-}
+};
 
 export default reduxForm({form: 'addNewContact'})(AddNewContactForm)

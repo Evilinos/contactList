@@ -1,7 +1,10 @@
+
+// constants
 const ADD_NEW_CONTACT = 'contacts/ADD_NEW_CONTACT';
 const DELETE_CONTACT = 'contacts/DELETE_CONTACT';
 const EDIT_CONTACT = 'contacts/EDIT_CONTACT';
 
+// state
 const initialState = {
     contacts: [
         {
@@ -23,6 +26,7 @@ const initialState = {
     ]
 };
 
+// reducer
 const contactsReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_NEW_CONTACT:
@@ -36,6 +40,7 @@ const contactsReducer = (state = initialState, action) => {
     }
 };
 
+// action creators
 export const addNewContact = (contact) => ({type: ADD_NEW_CONTACT, contact,});
 export const deleteContact = (contacts) => ({type: DELETE_CONTACT, contacts});
 export const editContact = (contacts) => ({type: EDIT_CONTACT, contacts});
