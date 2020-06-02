@@ -1,9 +1,19 @@
 import React from "react";
 import styles from "./Contacts.module.css"
 import AddNewContactForm from "./addNewContactForm/AddNewContactForm";
+import Contact from "./contact/Contact";
 
 const Contacts = (props) => {
 
+    let contacts = props.contacts.map((c) => {
+            return (
+                <Contact contacts={props.contacts}
+                         editContact={props.editContact}
+                         delete={props.onClickDelete}
+                         key={c.id} {...c}/>
+            )
+        }
+    );
 
     return <div className={styles.wrapper}>
         {props.addNewContactForm &&
@@ -14,7 +24,7 @@ const Contacts = (props) => {
             <button onClick={() => props.setAddNewContactForm(true)}>Add new</button>
         </div>
         <div className={styles.contacts}>
-            {props.contacts}
+            {contacts}
         </div>
     </div>
 };

@@ -2,7 +2,6 @@ import {connect} from "react-redux";
 import {addNewContact, deleteContact, editContact} from "../../redux/contacts-reducer";
 import Contacts from "./Contacts";
 import React, {useState} from "react";
-import Contact from "./contact/Contact";
 import {Redirect} from "react-router-dom";
 
 const ContactsContainer = (props) => {
@@ -20,19 +19,11 @@ const ContactsContainer = (props) => {
         setAddNewContactForm(false)
     };
 
-    let contacts = props.contacts.map((c) => {
-    if (!props.isAuth) return <Redirect to={'/login'}/>;
-        return (
-                <Contact contacts={props.contacts}
-                         editContact={props.editContact}
-                         delete={onClickDelete}
-                         key={c.id} {...c}/>
-            )
-        }
-    );
+    if (!props.isAuth) return <Redirect to='/login'/>
 
     return <Contacts onSubmitNewContact={onSubmitNewContact}
-                     contacts={contacts}
+                     onClickDelete={onClickDelete}
+                     contacts={props.contacts}
                      addNewContactForm={addNewContactForm}
                      setAddNewContactForm={setAddNewContactForm}/>
 };
