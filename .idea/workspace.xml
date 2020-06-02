@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d28e1844-bfb3-463f-8073-77e3bdb2f525" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/login/LoginForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/contact/ContactEditModeForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contact/ContactEditModeForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/contacts-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/contacts-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,26 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -68,6 +84,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,7 +115,8 @@
       <workItem from="1590587252860" duration="18274000" />
       <workItem from="1590655509398" duration="22011000" />
       <workItem from="1591042319460" duration="3127000" />
-      <workItem from="1591091476670" duration="3088000" />
+      <workItem from="1591091476670" duration="4019000" />
+      <workItem from="1591095525945" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1590679596181</created>
@@ -119,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591092041992</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final version">
+      <created>1591094734427</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591094734427</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +172,8 @@
     <MESSAGE value="Code refactoring 2" />
     <MESSAGE value="fix edit contacts" />
     <MESSAGE value="code refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refactoring" />
+    <MESSAGE value="final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="608" y="566" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590656010530">
@@ -142,26 +184,26 @@
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="464" y="457" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1591044978178" />
-    <state x="949" y="225" key="CommitChangelistDialog2" timestamp="1591092040828">
+    <state x="949" y="225" key="CommitChangelistDialog2" timestamp="1591094733026">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state x="949" y="225" key="CommitChangelistDialog2/0.46.1920.1034@0.46.1920.1034" timestamp="1591092040828" />
-    <state width="1437" height="163" key="GridCell.Tab.0.bottom" timestamp="1591091899532">
+    <state x="949" y="225" key="CommitChangelistDialog2/0.46.1920.1034@0.46.1920.1034" timestamp="1591094733026" />
+    <state width="1437" height="163" key="GridCell.Tab.0.bottom" timestamp="1591096152560">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1437" height="163" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1591091899532" />
-    <state width="1437" height="163" key="GridCell.Tab.0.center" timestamp="1591091899531">
+    <state width="1437" height="163" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1591096152560" />
+    <state width="1437" height="163" key="GridCell.Tab.0.center" timestamp="1591096152560">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1437" height="163" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1591091899531" />
-    <state width="1437" height="163" key="GridCell.Tab.0.left" timestamp="1591091899531">
+    <state width="1437" height="163" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1591096152560" />
+    <state width="1437" height="163" key="GridCell.Tab.0.left" timestamp="1591096152560">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1437" height="163" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1591091899531" />
-    <state width="1437" height="163" key="GridCell.Tab.0.right" timestamp="1591091899531">
+    <state width="1437" height="163" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1591096152560" />
+    <state width="1437" height="163" key="GridCell.Tab.0.right" timestamp="1591096152560">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1437" height="163" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1591091899531" />
+    <state width="1437" height="163" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1591096152560" />
     <state x="553" y="440" key="RollbackChangesDialog" timestamp="1591040692085">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
