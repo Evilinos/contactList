@@ -9,7 +9,7 @@ const ContactEditModeForm = ({onSubmit, onChangeInput, deleteContactHandler, for
             <input value={formData.secondName} name='secondName' type='text' placeholder='Second Name'/>
         </div>
         <div className={styles.row}>
-            <input value={formData.number} name='number' type='text' placeholder='Number'/>
+            <input value={formData.number} name='number' type='tel' placeholder='Number'/>
             <input value={formData.address} name='address' type='text' placeholder='Address'/>
         </div>
         <input value={formData.description} name='description' placeholder='Description'/>

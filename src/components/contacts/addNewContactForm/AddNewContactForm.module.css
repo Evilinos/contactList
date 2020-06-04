@@ -10,7 +10,7 @@
 .addNewContactForm {
     position: fixed;
     top: 120px;
-    left: 450px;
+    left: 40%;
     z-index: 100;
 }
 

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d28e1844-bfb3-463f-8073-77e3bdb2f525" name="Default Changelist" comment="">
+    <list default="true" id="d28e1844-bfb3-463f-8073-77e3bdb2f525" name="Default Changelist" comment="Search added">
+      <change afterPath="$PROJECT_DIR$/src/components/contacts/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/contactList.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/ContactsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/addNewContactForm/AddNewContactForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/addNewContactForm/AddNewContactForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/contact/ContactEditModeForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contact/ContactEditModeForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/contacts-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/contacts-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +126,8 @@
       <workItem from="1591091476670" duration="4019000" />
       <workItem from="1591095525945" duration="1833000" />
       <workItem from="1591199766483" duration="25000" />
-      <workItem from="1591264131330" duration="115000" />
+      <workItem from="1591264131330" duration="971000" />
+      <workItem from="1591266169628" duration="10813000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1590679596181</created>
@@ -169,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591096739538</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rename project">
+      <created>1591264294546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591264294546</updated>
+    </task>
+    <task id="LOCAL-00009" summary="readme">
+      <created>1591264405042</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591264405042</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +206,10 @@
     <MESSAGE value="code refactoring" />
     <MESSAGE value="final version" />
     <MESSAGE value="add gh-pages and readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gh-pages and readme" />
+    <MESSAGE value="rename project" />
+    <MESSAGE value="readme" />
+    <MESSAGE value="Search added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="608" y="566" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590656010530">
@@ -194,30 +220,30 @@
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="464" y="457" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.46.1920.1034@0.46.1920.1034" timestamp="1591044978178" />
-    <state x="816" y="220" key="CommitChangelistDialog2" timestamp="1591264293529">
+    <state x="816" y="220" key="CommitChangelistDialog2" timestamp="1591278026704">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state x="816" y="220" key="CommitChangelistDialog2/0.46.1920.1034@0.46.1920.1034" timestamp="1591264293529" />
-    <state x="655" y="368" key="FileChooserDialogImpl" timestamp="1591199789525">
+    <state x="816" y="220" key="CommitChangelistDialog2/0.46.1920.1034@0.46.1920.1034" timestamp="1591278026704" />
+    <state x="655" y="368" key="FileChooserDialogImpl" timestamp="1591265172494">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state x="655" y="368" key="FileChooserDialogImpl/0.46.1920.1034@0.46.1920.1034" timestamp="1591199789525" />
-    <state width="1310" height="171" key="GridCell.Tab.0.bottom" timestamp="1591264281029">
+    <state x="655" y="368" key="FileChooserDialogImpl/0.46.1920.1034@0.46.1920.1034" timestamp="1591265172494" />
+    <state width="1310" height="171" key="GridCell.Tab.0.bottom" timestamp="1591266222353">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1310" height="171" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1591264281029" />
-    <state width="1310" height="171" key="GridCell.Tab.0.center" timestamp="1591264281029">
+    <state width="1310" height="171" key="GridCell.Tab.0.bottom/0.46.1920.1034@0.46.1920.1034" timestamp="1591266222353" />
+    <state width="1310" height="171" key="GridCell.Tab.0.center" timestamp="1591266222353">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1310" height="171" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1591264281029" />
-    <state width="1310" height="171" key="GridCell.Tab.0.left" timestamp="1591264281029">
+    <state width="1310" height="171" key="GridCell.Tab.0.center/0.46.1920.1034@0.46.1920.1034" timestamp="1591266222353" />
+    <state width="1310" height="171" key="GridCell.Tab.0.left" timestamp="1591266222353">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1310" height="171" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1591264281029" />
-    <state width="1310" height="171" key="GridCell.Tab.0.right" timestamp="1591264281029">
+    <state width="1310" height="171" key="GridCell.Tab.0.left/0.46.1920.1034@0.46.1920.1034" timestamp="1591266222353" />
+    <state width="1310" height="171" key="GridCell.Tab.0.right" timestamp="1591266222353">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state width="1310" height="171" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1591264281029" />
+    <state width="1310" height="171" key="GridCell.Tab.0.right/0.46.1920.1034@0.46.1920.1034" timestamp="1591266222353" />
     <state x="553" y="440" key="RollbackChangesDialog" timestamp="1591040692085">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>

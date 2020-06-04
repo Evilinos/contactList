@@ -9,16 +9,16 @@ const initialState = {
     contacts: [
         {
             id: 1,
-            firstName: 'firstName',
-            secondName: 'secondName',
+            firstName: 'John',
+            secondName: 'Connor',
             number: '+12345678910',
             address: 'address',
             description: 'first',
         },
         {
             id: 2,
-            firstName: 'firstName',
-            secondName: 'secondName',
+            firstName: 'Adam',
+            secondName: 'Jensen',
             number: '+12345678999',
             address: 'address',
             description: 'second',

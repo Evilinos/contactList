@@ -8,13 +8,16 @@ const ContactsContainer = (props) => {
 
     const [addNewContactForm, setAddNewContactForm] = useState(false);
 
+    const [search, setSearch] = useState(false);
+    const [matchesContacts, setMatchesContacts] = useState([]);
+
 
     const deleteContactHandler = (id) => {
         const newContactsArray = props.contacts.filter((c) => c.id !== id);
         props.deleteContact(newContactsArray)
     };
 
-    const onSubmitNewContact = (formData) => {
+    const submitNewContactFormHandler = (formData) => {
         formData.id = Date.now().toString();
         props.addNewContact(formData);
         setAddNewContactForm(false)
@@ -22,7 +25,11 @@ const ContactsContainer = (props) => {
 
     if (!props.isAuth) return <Redirect to='/login'/>;
 
-    return <Contacts onSubmitNewContact={onSubmitNewContact}
+    return <Contacts submitNewContactFormHandler={submitNewContactFormHandler}
+                     setMatchesContacts={setMatchesContacts}
+                     matchesContacts={matchesContacts}
+                     search={search}
+                     setSearch={setSearch}
                      deleteContactHandler={deleteContactHandler}
                      editContact={props.editContact}
                      contacts={props.contacts}
