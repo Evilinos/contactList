@@ -12,7 +12,7 @@ const App = () => {
             <Route exact path='/contacts'
                    render={() =>  <ContactsContainer/>}/>
             <Redirect exact from="/" to="/login" />
-            <Redirect exact from="/tz/" to="/login" />
+            <Redirect exact from="/contactList/" to="/login" />
             <Route render={() => <div>404 NOT FOUND</div>}/>
         </Switch>
   );
